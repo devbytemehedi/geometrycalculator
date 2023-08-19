@@ -25,7 +25,7 @@ function calcArea(x, y) {
 function addToEntry(areaType, area) {
   const parentElement = document.getElementById("btn-area");
   const childElement = document.createElement("p");
-  childElement.innerHTML = `Area (${areaType}) = ${area} cm\u00b2`;
+  childElement.innerHTML = `${areaType} = ${area} cm\u00b2  <button class="btn btn-sm bg-green-500 border-none capitalize my-2"> to m\u00b2</button>`;
   parentElement.appendChild(childElement);
 }
 

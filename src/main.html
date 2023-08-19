@@ -56,7 +56,7 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Triangle</h2>
-            <p>Area (A ) = 0.5 x base x height</p>
+            <p>Area  = 0.5 x base x height</p>
             <div class="inputs flex items-center justify-center gap-4 my-3">
               <input
                 id="base-triangle"
@@ -95,7 +95,7 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Rectangle</h2>
-            <p>Area (A ) = width x length</p>
+            <p>Area  = width x length</p>
             <div class="inputs flex items-center justify-center gap-4 my-3">
               <input
                 id="width-rectangle"
@@ -134,26 +134,29 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Parallelogram</h2>
-            <p>Area (A ) = base x height</p>
-            <div class="inputs flex items-center justify-center mt-3 gap-4">
+            <p>Area  = base x height</p>
+            <div class="inputs flex items-center justify-center my-3 gap-4">
               <input
+                id="base-parallelogram"
                 type="text"
                 placeholder="b= 10cm"
                 class="input w-24 bg-blue-50 border-none"
-                disabled
               />
               <div class="card-actions">
                 <input
+                  id="height-parallelogram"
                   type="text"
                   placeholder="h= 12cm"
                   class="input w-24 bg-blue-50 border-none"
-                  disabled
                 />
               </div>
             </div>
+            <p class="font-bold text-gray-500">
+              Area: <span id="area-parallelogram"></span>
+            </p>
             <button
               id="btn-parallelogram"
-              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg mt-5 border-none"
+              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg border-none"
             >
               Calculate
             </button>
@@ -180,26 +183,29 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Rhombus</h2>
-            <p>Area (A ) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
-            <div class="inputs flex items-center justify-center mt-3 gap-4">
+            <p>Area  = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+            <div class="inputs flex items-center justify-center my-3 gap-4">
               <input
+                id="d1-rhombus"
                 type="text"
                 placeholder="d1= 16cm"
                 class="input w-28 bg-blue-50 border-none"
-                disabled
               />
               <div class="card-actions">
                 <input
+                  id="d2-rhombus"
                   type="text"
                   placeholder="d2= 8cm"
                   class="input w-24 bg-blue-50 border-none"
-                  disabled
                 />
               </div>
             </div>
+            <p class="font-bold text-gray-500">
+              Area: <span id="area-rhombus"></span>
+            </p>
             <button
               id="btn-rhombus"
-              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg mt-5 border-none"
+              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg border-none"
             >
               Calculate
             </button>
@@ -218,26 +224,29 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Pentagon</h2>
-            <p>Area (A ) = 0.5 x p x b</p>
-            <div class="inputs flex items-center justify-center mt-3 gap-4">
+            <p>Area  = 0.5 x perimeter x apothem</p>
+            <div class="inputs flex items-center justify-center my-3 gap-4">
               <input
+                id="perimeter "
                 type="text"
                 placeholder="p= 16cm"
                 class="input w-24 bg-blue-50 border-none"
-                disabled
               />
               <div class="card-actions">
                 <input
+                  id="apothem "
                   type="text"
-                  placeholder="b= 8cm"
+                  placeholder="a= 8cm"
                   class="input w-24 bg-blue-50 border-none"
-                  disabled
                 />
               </div>
             </div>
+            <p class="font-bold text-gray-500">
+              Area: <span id="area-pentagon"></span>
+            </p>
             <button
               id="btn-pentagon"
-              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg mt-5 border-none"
+              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg border-none"
             >
               Calculate
             </button>
@@ -256,26 +265,29 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">Ellipse</h2>
-            <p>Area (A ) = <span class="font-bold text-xl">&#x3C0;</span>ab</p>
-            <div class="inputs flex items-center justify-center mt-3 gap-4">
+            <p>Area  = <span class="font-bold text-xl">&#x3C0;</span>ab</p>
+            <div class="inputs flex items-center justify-center my-3 gap-4">
               <input
+                id="a-ellipse"
                 type="text"
                 placeholder="a= 10cm"
                 class="input w-24 bg-blue-50 border-none"
-                disabled
               />
               <div class="card-actions">
                 <input
+                  id="b-ellipse"
                   type="text"
                   placeholder="b= 4cm"
                   class="input w-24 bg-blue-50 border-none"
-                  disabled
                 />
               </div>
             </div>
+            <p class="font-bold text-gray-500">
+              Area: <span id="area-ellipse"></span>
+            </p>
             <button
               id="btn-ellipse"
-              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg mt-5 border-none"
+              class="btn bg-blue-500 hover:bg-blue-600 btn-wide text-white capitalize font-bold text-lg border-none"
             >
               Calculate
             </button>
