@@ -1,7 +1,7 @@
 {
-  "name": "swiftstart",
+  "name": "geometrycalculator",
   "version": "1.0.0",
-  "description": "A versatile web project starter template with HTML5, CSS3, Tailwind CSS, daisyUI, Git, and Node.js for quick, responsive web development.",
+  "description": "Simple Interactive Geometry Calculator Website ",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./dist/style.css -w"
